@@ -5,6 +5,7 @@ This README has been updated by [pshed-001](https://github.com/pshed-001)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Before project ### `npm start` be sure to run ### `npm install` to install the required dependencies 
 
 In the project directory, you can run:
 
