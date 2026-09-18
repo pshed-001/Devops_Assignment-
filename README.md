@@ -1,6 +1,6 @@
 # Learn Jenkins App
 
-This README has been updated by pshed-001 
+This README has been updated by [pshed-001](https://github.com/pshed-001)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
