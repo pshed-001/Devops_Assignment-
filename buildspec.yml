@@ -4,11 +4,15 @@ phases:
   install:
     commands:
       - npm install
-
   build:
     commands:
       - npm run build
-
   post_build:
     commands:
+      - echo '{"scripts":{"start":"serve -s . -l 8080"},"dependencies":{"serve":"^14.2.0"}}' > build/package.json
       - echo "Build completed successfully"
+
+artifacts:
+  base-directory: build
+  files:
+    - '**/*'
